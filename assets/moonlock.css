@@ -1,0 +1,19 @@
+:root{--gold:#f5cb82;--mint:#a4e7e5;--ink:#f7efd6;--muted:#adcbc6;--line:#2c4a4c;--bg:#081a1e}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:radial-gradient(ellipse at top,#254443,var(--bg) 60%) fixed;line-height:1.6}
+header{padding:28px 20px 8px;text-align:center}
+header a.brand{color:var(--muted);text-decoration:none;font-size:14px;letter-spacing:.04em;text-transform:uppercase}
+main{max-width:720px;margin:0 auto;padding:8px 20px 48px}
+h1{font:500 32px/1.2 Georgia,serif;margin:8px 0 6px;color:#ffedc5}
+h2{font-size:20px;margin:32px 0 8px;color:var(--gold)}
+h3{font-size:16px;margin:20px 0 4px}
+p,li{font-size:16px}
+.lede{font-size:18px;color:var(--muted)}
+.card{background:#0d252ccc;border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:16px 0}
+.pill{display:inline-block;background:#173a3f;border-radius:999px;padding:4px 12px;margin:3px 2px;font-size:14px}
+a{color:var(--mint)}
+nav.links{text-align:center;margin:18px 0}
+nav.links a{margin:0 10px}
+footer{text-align:center;color:var(--muted);font-size:13px;padding:24px 20px 40px;border-top:1px solid var(--line)}
+.meta{color:var(--muted);font-size:14px}
